@@ -72,7 +72,7 @@
     
     <properties>
 	<etudes.util.version>1.0.8</etudes.util.version>
-        <melete.version>2.8.2</melete.version>
+	<melete.version>2.8.2</melete.version>
         <sakai.version>2.8-SNAPSHOT</sakai.version>
         <sakai.kernel.version>1.2.6-SNAPSHOT</sakai.kernel.version>
         <!-- Standard dependency versions -->
@@ -209,7 +209,6 @@
 <groupId>org.etudes</groupId>
 <artifactId>etudes-util-util</artifactId>
 <version>${etudes.util.version}</version>
-<scope>provided</scope>
 </dependency>
 
 <dependency>
@@ -217,7 +216,7 @@
 <artifactId>etudes-melete-api</artifactId>
 <version>${melete.version}</version>
 <scope>provided</scope>
-</dependency>
+</dependency>   
 
 		<dependency>
 			<artifactId>kernel</artifactId>
