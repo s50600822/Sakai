@@ -24,9 +24,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk</connection>
-        <developerConnection>scm:svn:https://source.sakaiproject.org/svn/sakai/trunk</developerConnection>
-        <url>https://source.sakaiproject.org/svn/sakai/trunk</url>
+	<connection>scm:git:git@github.com:LongsightGroup/Sakai.git</connection>
+	<url>scm:git:git@github.com:LongsightGroup/Sakai.git</url>
+	<developerConnection>scm:git:git@github.com:LongsightGroup/Sakai.git</developerConnection>
     </scm>
     <organization>
         <name>The Sakai Foundation</name>
@@ -50,7 +50,6 @@
                 <module>announcement</module>
                 <module>archive</module>
                 <module>assignment</module>
-		<module>assignment2</module>
                 <module>authz</module>
                 <module>calendar</module>
                 <module>chat</module>
@@ -61,7 +60,6 @@
                 <module>dav</module>
 		<module>edu-services</module>
 		<module>entitybroker</module>
-		<module>etudes-util</module>
 		<module>evaluation</module>
                 <module>gradebook</module>
                 <module>help</module>
@@ -71,7 +69,6 @@
                 <module>linktool</module>
                 <module>login</module>
                 <module>mailarchive</module>
-		<module>melete</module>
                 <module>memory</module>
                 <module>message</module>
                 <module>metaobj</module>
